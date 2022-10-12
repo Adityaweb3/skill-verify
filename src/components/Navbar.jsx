@@ -51,7 +51,7 @@ function Navbar() {
                       alt='Decentraskill'
                     />
                     <span className='font-Bebas text-white text-md rounded-md tracking-widest'>
-                      Decentraskill
+                      skill-verify
                     </span>
                   </div>
                 </button>

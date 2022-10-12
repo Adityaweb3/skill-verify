@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className='absolute inset-x-0 text-center mx-auto bg-gray-800 text-gray-300 p-2 bottom-0 '>
-      <h1>Made with ♥ in India</h1>
+      <h1>Verify Your Skill(Your Virtual Resume)</h1>
       <a
         href='https://github.com/iamsdas/Decentraskill/'
         src=''
