@@ -17,10 +17,10 @@ function Banner() {
   return (
     <div className='font-Open text-center h-screen p-5 bg-design bg-center bg-cover bg-no-repeat mx-auto '>
       {/* <h1>{state.account || 'loading'}</h1> */}
-      <div className='font-extrabold lg:text-7xl text-3xl p-2  text-yellow-800'>
+      <div className='font-extrabold lg:text-7xl text-3xl p-2  text-blue-300'>
         Skill-verify
       </div>
-      <div className='text-4xl p-2 text-pink-800 '>
+      <div className='text-4xl p-2 text-blue-100 font-semibold font-mono '>
         Skill Verification On Blockchain 
       </div>
       <div className='p-8 w-1/2 mx-auto'>

@@ -7,7 +7,7 @@ const Profile = lazy(() => import('../components/Profile'));
 function User_Dashboard() {
   const items = [
     { id: 1, name: 'Skills' },
-    { id: 2, name: 'Work Experiance' },
+    { id: 2, name: 'Work Experience' },
     { id: 3, name: 'Certificates' },
   ];
 
@@ -27,10 +27,10 @@ function User_Dashboard() {
   };
 
   return (
-    <div className='h-screen'>
-      <header className='bg-white shadow'>
+    <div className='h-screen '>
+      <header className='bg-white shadow '>
         <div className='max-w-9xl mx-auto py-6 px-4 sm:px-6 lg:px-8'>
-          <h1 className='text-3xl font-bold text-gray-900'>
+          <h1 className='text-3xl font-bold text-gray-900 m-5'>
             {items.find((item) => item.id === active).name}
           </h1>
         </div>
